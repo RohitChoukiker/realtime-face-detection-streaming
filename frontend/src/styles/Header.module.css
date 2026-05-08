@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+.left { display: flex; align-items: center; gap: 14px; }
+.logo { font-size: 32px; }
+.title { font-size: 20px; font-weight: 700; color: var(--text-primary); }
+.subtitle { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+.right { display: flex; align-items: center; gap: 8px; }
+.statusDot { width: 10px; height: 10px; border-radius: 50%; }
+.green { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+.red { background: var(--accent-red); }
+.statusText { font-size: 13px; color: var(--text-secondary); }
