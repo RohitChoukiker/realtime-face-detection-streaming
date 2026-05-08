@@ -6,7 +6,7 @@ Full-stack containerised system for real-time face detection with WebSocket vide
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                  Docker Compose Network                  │
+│                  Docker Compose Network                 │
 │                                                         │
 │  ┌──────────────┐    WebSocket    ┌──────────────────┐  │
 │  │   Frontend   │◄───────────────►│    Backend       │  │
