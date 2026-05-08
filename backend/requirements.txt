@@ -1,4 +1,13 @@
 fastapi
-uvicorn
+uvicorn[standard]
 sqlalchemy
 python-dotenv
+python-multipart
+asyncpg
+alembic
+pydantic-settings
+mediapipe==0.10.18
+Pillow
+numpy
+greenlet
+
