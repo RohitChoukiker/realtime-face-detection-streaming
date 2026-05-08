@@ -53,8 +53,8 @@ Full-stack containerised system for real-time face detection with WebSocket vide
 ### Run everything
 
 ```bash
-git clone <repo>
-cd face-detection-system
+git clone https://github.com/RohitChoukiker/realtime-face-detection-streaming.git
+cd realtime-face-detection-streaming
 
 docker-compose up --build
 ```
@@ -73,7 +73,7 @@ http://localhost:8000/docs
 ## Project Structure
 
 ```
-face-detection-system/
+realtime-face-detection-streaming/
 ├── docker-compose.yml
 │
 ├── backend/
